@@ -1,0 +1,24 @@
+.add-new-form {
+  margin: 0;
+  padding: 0;
+}
+
+.add_item_input {
+  display: inline-block;
+  width: 70%;
+  height: 30px;
+  font-size: 1rem;
+  border: none;
+
+  margin-top: 12px;
+  margin-left: 13px;
+}
+
+.add_item_input:focus {
+  border: none;
+  outline: none;
+}
+
+li .circle {
+  margin-left: 14px;
+}

@@ -1,0 +1,10 @@
+.todolists-list-layout {
+  margin: auto;
+  display: flex;
+  width: 72.5%;
+  flex-flow: row wrap;
+
+  gap: 30px 20px;
+
+  justify-content: space-between;
+}

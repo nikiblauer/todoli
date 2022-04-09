@@ -1,0 +1,31 @@
+.small-btn {
+  cursor: pointer;
+  margin: 3rem auto 1.5rem;
+  font-size: 0.833rem;
+  width: 75px;
+  height: 25px;
+  border: none;
+  text-decoration: none;
+  color: red;
+  background-color: #fff;
+
+  border-radius: 8px;
+
+  box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+
+  transition: 0.3s;
+}
+
+.small-btn:hover {
+  background-color: #dbdbdb;
+}
+
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+  .small-btn:hover {
+    background-color: #dbdbdb;
+    scale: 1.2;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+  }
+}
